@@ -1,4 +1,4 @@
-//Please use a display with 1920x1080p resolution for bes results
+//Please use a display with 1920x1080p resolution for best results
 audio = new Audio('Ping Sound Effect - Discord.mp3')
 audio.loop = false;
 snakeaudio = new Audio('Among Us (Role Reveal) - Sound Effect (HD).mp3')
