@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Snake N Ladders</title>
+        <h1 style="font-style: italic;color: turquoise; text-align: center; font-size:60px">Snake & Ladders</h1>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    
+    <body onload="bd()">
+        <script src="main.js"></script>
+        <span class="dot" id="blob" onclick=""></span>
+        <span class="dot" id="blob2" onclick="OKOK('blob2');" style="background-color: blue;"></span>
+        <button id = 'b1'onclick="MOVE('blob');unlockB('b2','b1');checkSL('blob');" style="background-color: red;color: yellow;"><b>Player 1<b></button>
+        <button id = 'b2' onclick="MOVE('blob2');unlockB('b1','b2');checkSL('blob2')" style="background-color: blue;color: yellow;"><b>Player 2<b></button>
+        
+    </body>
+</html>
